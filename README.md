@@ -27,7 +27,7 @@
 ## ROC
 Для лучших двух эпох ([17](savestates/17) и [19](savestates/19)) скриптом [ROC.py](ROC.py) для кадого порога от 0 до 1 с шагом 0.01 на валидационном наборе рассчитаны F1 мера, True Positive Rate и False Positive Rate. Значения в файле [ROC.csv](ROC.csv). Значения вероятностей принадлежности к классу 1, выдоваемые нейросетями, представлены в файле [17_19_validation.csv](17_19_validation.csv).
 
-Скриптом [ROC_analyzer.py](ROC_analyzer.py) вычесленны площади под графиком:
+Скриптом [ROC_analyzer.py](ROC_analyzer.py) вычисленны площади под графиком:
 - ROC_AUC_17 = 0.9975
 - ROC_AUC_19 = 0.9970
 
